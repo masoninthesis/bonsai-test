@@ -5,11 +5,11 @@
 wordpress_sites:
   bonsai.jackalope.io:
     site_hosts:
-      - canonical: example.test
+      - canonical: bonsai.test
         redirects:
-          - www.example.test
+          - www.bonsai.test
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
-    admin_email: admin@example.test
+    admin_email: admin@jackalope.io
     multisite:
       enabled: false
     ssl:
