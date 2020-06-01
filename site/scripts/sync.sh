@@ -8,10 +8,10 @@ DEVDIR="web/app/uploads/"
 DEVSITE="http://bonsai.test/"
 
 PRODDIR="web@bonsai-production:/srv/www/bonsai.jackalope.io/shared/uploads/"
-PRODSITE="https://bonsai.jackalope.io"
+PRODSITE="https://test.jackalope.io"
 
 STAGDIR="web@bonsai-staging:/srv/www/bonsai.jackalope.io/shared/uploads/"
-STAGSITE="http://staging.bonsai.jackalope.io/"
+STAGSITE="http://bonsai.jackalope.io/"
 
 FROM=$1
 TO=$2

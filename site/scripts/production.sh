@@ -13,7 +13,7 @@ ssh-add -K
 ansible-playbook server.yml -e env=production
 
 # Add SSH Key to ~/.ssh/know_hosts
-ssh-keygen -R bonsai.jackalope.io
+ssh-keygen -R test.jackalope.io
 
 # Deploy to Production Server
 ./bin/deploy.sh production bonsai.jackalope.io

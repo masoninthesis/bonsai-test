@@ -2,7 +2,7 @@
 # List each machine only once per [group], even if it will host multiple sites.
 
 [production]
-bonsai.jackalope.io
+test.jackalope.io
 
 [web]
-bonsai.jackalope.io
+test.jackalope.io

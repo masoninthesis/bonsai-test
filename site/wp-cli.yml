@@ -7,4 +7,4 @@ path: web/wp
 @staging:
   ssh: web@staging.bonsai.jackalope.io/srv/www/bonsai.jackalope.io/current
 @production:
-  ssh: web@bonsai.jackalope.io/srv/www/bonsai.jackalope.io/current
+  ssh: web@test.jackalope.io/srv/www/bonsai.jackalope.io/current

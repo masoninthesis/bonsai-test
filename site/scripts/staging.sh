@@ -13,7 +13,7 @@ ssh-add -K
 ansible-playbook server.yml -e env=staging
 
 # Add SSH Key to ~/.ssh/know_hosts
-ssh-keygen -R staging.bonsai.jackalope.io
+ssh-keygen -R bonsai.jackalope.io
 
 # Deploy to Staging Server
 ./bin/deploy.sh staging bonsai.jackalope.io
